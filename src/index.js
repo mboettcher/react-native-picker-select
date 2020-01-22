@@ -366,6 +366,7 @@ export default class RNPickerSelect extends PureComponent {
             <View
                 testID="icon_container"
                 style={[defaultStyles.iconContainer, style.iconContainer]}
+                pointerEvents={'none'}
             >
                 <Icon testID="icon" />
             </View>
